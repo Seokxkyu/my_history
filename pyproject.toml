@@ -1,6 +1,6 @@
 [project]
 name = "seokxkyu_history"
-version = "0.1.0"
+version = "0.2.0"
 description = "Default template for PDM package"
 authors = [
     {name = "Seokxkyu", email = "kyuseok000@gmail.com"},
@@ -15,4 +15,4 @@ seokxkyu-history = "seokxkyu_history.cli:cnt"
 mh = "seokxkyu_history.cli:argp"
 
 [tool.pdm]
-distribution = false
+distribution = true
