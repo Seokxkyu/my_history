@@ -10,6 +10,9 @@ requires-python = "==3.11.*"
 readme = "README.md"
 license = {text = "MIT"}
 
+[project.scripts]
+seokxkyu-history = "seokxkyu_history.cli:cnt"
+mh = "seokxkyu_history.cli:argp"
 
 [tool.pdm]
 distribution = false
